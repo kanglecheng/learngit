@@ -1,0 +1,4 @@
+﻿border-radius: 4px 4px 4px 4px; /* CSS属性 */
+-webkit-border-radius: 4px 4px 4px 4px; /* webkit内核浏览器的私有CSS属性 */
+-moz-border-radius: 4px 4px 4px 4px; /* moz内核浏览器的私有CSS属性 */
+behavior: url(css/pie/PIE.htc); /* 兼容IE */

@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>婷锋组项目</title>
+	<link rel="stylesheet" href="css/index.css" />
+	<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+	<ul id="nav" class="nav clearfix">
+		<li class="nLi">
+			<h3><a href="http://www.SuperSlide2.com" target="_blank">婷锋组</a></h3>
+			<ul class="sub">
+					<li><a href="http://wd15477.pro.wdcase.com/wd15477/YouYueYing/" target="_blank">优粤影</a></li>
+				</ul>
+		</li>
+		<li class="nLi">
+				<h3><a href="http://www.SuperSlide2.com" target="_blank">康乐成</a></h3>
+				<ul class="sub">
+					<li><a href="http://wd15477.pro.wdcase.com/wd15477/kanglecheng/wengdo/" target="_blank">文豆</a></li>
+					<li><a href="http://wd15477.pro.wdcase.com/wd15477/kanglecheng/zhiku/" target="_blank">智库</a></li>
+					<li><a href="http://wd15477.pro.wdcase.com/wd15477/kanglecheng/zhongbang/" target="_blank">中邦</a></li>
+					<li><a href="http://wd15477.pro.wdcase.com/wd15477/kanglecheng/jinling/" target="_blank">金陵</a></li>
+				</ul>
+		</li>
+		<li class="nLi">
+				<h3><a href="http://www.SuperSlide2.com" target="_blank">蔡兢锋</a></h3>
+				<ul class="sub">
+					<li><a href="http://wd15477.pro.wdcase.com/wd15477/kanglecheng/wengdo/" target="_blank">文豆</a></li>
+					<li><a href="http://wd15477.pro.wdcase.com/wd15477/kanglecheng/zhiku/" target="_blank">智库</a></li>
+					<li><a href="http://wd15477.pro.wdcase.com/wd15477/kanglecheng/zhongbang/" target="_blank">中邦</a></li>
+					<li><a href="http://wd15477.pro.wdcase.com/wd15477/kanglecheng/jinling/" target="_blank">金陵</a></li>
+				</ul>
+		</li>
+		<li class="nLi ">
+				<h3><a href="#">欧玉婷</a></h3>
+				<ul class="sub">
+					<li><a href="http://wd15242.pro.wdcase.com/wd15242/wengdoo/" target="_blank">文豆</a></li>
+					<li><a href="http://wd15242.pro.wdcase.com/wd15242/aisi/" target="_blank">艾斯</a></li>
+					<li><a href="http://wd15242.pro.wdcase.com/wd15242/jinling/" target="_blank">金陵</a></li>
+				</ul>
+		</li>
+		<li class="nLi">
+				<h3><a href="http://www.SuperSlide2.com" target="_blank">温馨</a></h3>
+				<ul class="sub">
+					<li><a href="http://wd15477.pro.wdcase.com/wd15477/kanglecheng/wengdo/" target="_blank">文豆</a></li>
+					<li><a href="http://wd15477.pro.wdcase.com/wd15477/kanglecheng/zhiku/" target="_blank">智库</a></li>
+					<li><a href="http://wd15477.pro.wdcase.com/wd15477/kanglecheng/zhongbang/" target="_blank">中邦</a></li>
+					<li><a href="http://wd15477.pro.wdcase.com/wd15477/kanglecheng/jinling/" target="_blank">金陵</a></li>
+				</ul>
+		</li>
+	</ul>
+
+
+	<div class="intro" style="padding:10px">
+		<h3>婷锋组</h3>
+		<h3>成立于2015年8月19号，是文豆A1513，B1513中的学渣小组</h3>
+		<h3>该小组有着勤奋学习，报效祖国的精神。。。</h3>
+	</div>
+
+	<script id="jsID" type="text/javascript">
+		
+		jQuery("#nav").slide({ 
+			type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+			titCell:".nLi", //鼠标触发对象
+			targetCell:".sub", //titCell里面包含的要显示/消失的对象
+			effect:"slideDown", //targetCell下拉效果
+			delayTime:300 , //效果时间
+			triggerTime:0, //鼠标延迟触发时间（默认150）
+			returnDefault:true //鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+		});
+	</script>
+</body>
+</html>

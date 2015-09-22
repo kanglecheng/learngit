@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<h1>正在登录</h1>
+	<span id="box">3</span>秒之后进入。。。
+</body>
+</html>
+<script type="text/javascript">
+	/* function (){
+		var box = document.getElementById("box");
+		console.log(box.innerHTML--);
+		if(box.innerHTML==0){
+			clearInterval(T);
+			window.location.href="0901zuoye.html";
+		}
+	} */
+	
+	var T = setInterval(function (){
+		var box = document.getElementById("box");
+		console.log(box.innerHTML--);
+		if(box.innerHTML==0){
+			clearInterval(T);
+			window.location.href="login.html";
+		}
+	},1000);
+</script>
